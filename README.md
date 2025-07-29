@@ -16,6 +16,12 @@ The primary goal was to recreate the design using only HTML, CSS, and JavaScript
 
 The design for this landing page was discovered on LinkedIn. We are currently working on identifying and properly crediting the original designer. We will update this README with the designer's information as soon as possible.
 
+## Challenges and Solutions
+
+* **Image Sourcing:** Finding suitable images that closely resembled the ones used in the original design proved challenging. We used free stock photo websites, generate some with Ai and, image editing tools to modify existing images.
+* **Typography Matching:**  Replicating the exact typography (font, size, spacing) from the design screenshot was difficult
+
+  
 ## Features
 
 * **Responsive Design:** The page adapts to different screen sizes, providing an optimal viewing experience on desktops and mobile devices.
