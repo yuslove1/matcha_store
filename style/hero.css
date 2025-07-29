@@ -1,0 +1,220 @@
+.hero {
+  /* background-color: #98e9b68e; */
+  background-color: #e7ffeb;
+  padding: 40px 0;
+}
+
+.hero_container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero_title {
+  font-size: 4rem;
+  color: #0a4d0a;
+}
+.hero_underline {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 100;
+  color: #1a811a;
+  font-style: italic;
+  border-bottom: #1a811a solid 2px;
+  margin: 20px 0;
+}
+
+.hero_subtitle {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #0a4d0a;
+  margin-bottom: 10px;
+}
+
+.hero_description {
+  font-size: 1rem;
+  color: #1a811a;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.bonus_tag {
+  background-color: rgb(238, 44, 44);
+  display: inline-block;
+  padding: 15px;
+  border-radius: 0.5rem;
+  transform: rotate(-5deg);
+  color: white;
+  line-height: 1.3rem;
+  font-weight: bold;
+}
+
+.hero_buttons {
+  display: flex;
+  margin: 20px 0;
+  gap: 8px;
+}
+.hero_buttons button {
+  padding: 8px 16px;
+  border-radius: 0.2rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero_buttons button:first-child {
+  color: white;
+  background-color: black;
+}
+
+#button-icon {
+  width: 15px;
+  display: flex;
+  align-items: center;
+}
+.hero_buttons #button:last-child {
+  color: black;
+  background-color: white;
+}
+
+.hero_head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero_img {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.hero_img img {
+  max-width: 100%;
+  height: auto;
+  max-height: 350px;
+}
+
+.hero_img_container {
+  width: 100%;
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+}
+
+#the_ritual{
+  margin: 25px auto;
+}
+.section_head{
+  text-align: center;
+}
+
+.section_head h1{
+  font-size: 2.5rem;
+  color: #0a4d0a;
+  margin: 5px 0;
+}
+
+.section_head p{
+  color: #1a811a;
+}
+
+/* card style */
+#the_ritual .section_card{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.image_container img{
+  width: 100%;
+  height: 100%;
+}
+#the_ritual .image_container{
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#the_ritual .card_container{
+width: calc(90%/4);
+background-color: white;
+border-radius: 10px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+text-align: center;
+box-shadow: 4px 26px 21px -8px rgba(96, 166, 83, 1);
+}
+
+#the_ritual .text_container{
+  padding: 10px 30px;
+}
+
+#the_ritual .text_container h3{
+  display: inline-block;
+  background-color: #1a811a;
+  color: white;
+  padding: 0.6rem 0.8rem;
+  border-radius: 50%;
+  
+}
+
+.section_card h2{
+  color: #0a4d0a;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.section_card p{
+  font-size: 0.8rem;
+color: #1a811a;
+margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 600px) {
+  .hero_head{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero_img {
+    width: 100%;
+    justify-content: center;
+    margin: 50px auto;
+  }
+
+  /* card */
+  .section_card{
+    flex-wrap: wrap;
+   }
+   
+   #the_ritual .card_container{
+    width: calc(95%/2);
+    margin-bottom: 10px;
+    /* flex-wrap: wrap; */
+    }
+    .hero_title {
+      font-size: 3rem;
+      text-align: center;
+    }
+    .hero_underline {
+      font-size: 1.4rem;
+    }
+
+    .hero_subtitle {
+      font-size: 1.6rem;
+    }
+    .hero_description {
+      font-size: 0.7rem;
+      max-width: 300px;
+    }
+    .hero_buttons{
+      flex-direction: column;
+      align-items: center;
+    }
+ }

@@ -1,0 +1,101 @@
+header{
+    width: 100%;
+    background-color: #e2f3e979;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+
+
+nav button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+#button-icon {
+    width: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+#logo{
+ display: flex;
+ align-items: center;
+ gap: 4px;
+
+ font-size: 1rem;
+ font-weight: 600;
+ color: rgb(3, 79, 3);
+}
+
+#logo div{
+    width: 20px;
+    height: 20px
+}
+
+ #logo svg{
+    fill: green;;
+ }
+
+#navLinks{
+    display: flex;
+    width: calc(100%/2.5);
+    max-width: 50%;
+    justify-content: space-between;
+    font-size: 1rem;
+    flex-shrink: 0;
+    color: green;
+}
+
+#navLinks li:hover{
+    color: rgb(3, 79, 3);
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 600px) {
+ nav{
+    max-width: 100%;
+   flex-direction: column;
+    padding: 0 10px;
+    flex-wrap: wrap;
+ }
+    nav #logo{
+        width: 100%;
+        margin: 10px 0;
+    }
+    nav #navLinks{
+        width: 90%;
+        max-width: 100%;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+    nav button{
+        width: 70%;
+        justify-content: center;
+        margin-bottom: 10px;
+        border: none;
+        font-size: 0.8rem;
+    }   
+    #button-icon {
+        width: 30px;
+        align-items: center;
+      }
+}
+

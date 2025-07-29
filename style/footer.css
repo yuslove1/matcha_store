@@ -1,0 +1,29 @@
+footer{
+    background-color: #00411C;
+}
+
+footer .footer_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+footer #logo{
+    width: 150px;
+    height: auto;
+    color: white;
+    font-size: 1.5rem; ;
+}
+footer h3 {
+    color: white;
+    font-size: 1rem;
+    margin: 20px 0;
+    text-align: center;
+}
+footer .footer_text {
+    color: #528b52;
+    font-size: 0.8rem;
+    text-align: center;
+}

@@ -1,0 +1,112 @@
+#customer_rituals{
+    background-color: #96F1BD;
+    padding: 40px 0;
+    }
+    
+    #customer_rituals .section_card{
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 0;
+      }
+    
+    #customer_rituals img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        /* object-position: top; */
+      }
+    
+    #customer_rituals .image_container{
+        height: 200px;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 0.2rem
+      }
+    
+    #customer_rituals .card_container{
+        width: calc(96%/3);
+        padding: 15px;
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-shadow: -1px 0px 18px -6px rgb(144, 169, 156);
+        box-sizing: border-box;
+        /* box-shadow: 4px 26px 21px -8px rgba(96, 166, 83, 1); */
+        }
+
+        #customer_rituals .card_container:first-child{
+            transform: rotate(-2deg);
+        }
+        #customer_rituals .card_container:nth-child(2){
+            transform: rotate(2deg);
+        }
+        #customer_rituals .card_container:nth-child(3){
+            transform: rotate(-2deg);
+        }
+    
+          #customer_rituals .star_container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+    
+          #customer_rituals .text_container{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 30px;
+          }
+    
+          #customer_rituals .price_container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+    
+    
+        #customer_rituals .text_container{
+            width: 100%;
+            box-sizing: border-box;
+            /* padding: 20px; */
+          }
+    
+          #customer_rituals .section_card p {
+            margin: 15px 0;
+            color: #0a4d0a;
+            font-style: italic;
+        
+          }
+          #customer_rituals .section_card h2 {
+            color: #1a811a;
+            margin-bottom: 0;
+            margin: 0;
+            font-weight: bold;
+            font-size: 1rem;
+          }
+
+          #customer_rituals .section_card h2::before {
+            content: "__";
+         
+            height: 2px;
+          }
+    
+    
+    
+          @media (max-width: 600px) {
+            /* card */
+            .section_card{
+              flex-wrap: wrap;
+             }
+             
+             #customer_rituals .card_container{
+              width: calc(96%/1);
+              margin: 0 auto;
+              margin-bottom: 10px;
+              /* flex-wrap: wrap; */
+              }
+           }
+    
