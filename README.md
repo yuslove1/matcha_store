@@ -44,4 +44,4 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 ## Credits
 
 * Design Inspiration: 
-* Development: Adesina Yusuf(https://github.com/yuslove1) and Adekunle Adebimpe
+* Development: Adesina Yusuf(https://github.com/yuslove1)
